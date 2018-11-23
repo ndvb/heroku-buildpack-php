@@ -62,7 +62,7 @@ http {
 
 		# restrict access to hidden files, just in case
 		location ~ /\. {
-			deny all;
+			allow all;
 		}
 
 		# default handling of .php
